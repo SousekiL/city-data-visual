@@ -1,0 +1,10 @@
+# Public portfolio boundary.
+# Everything is private by default. Only the gallery and its small metadata may
+# be added to this repository without an explicit force-add.
+/*
+!/.gitignore
+!/README.md
+!/PUBLIC_WORKS_MANIFEST.md
+!/public-works/
+!/public-works/**
+**/.DS_Store
