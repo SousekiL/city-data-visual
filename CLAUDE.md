@@ -24,7 +24,8 @@ See `LOCAL_PROJECT_INDEX.md` (local only) for the categorized index. Groupings: 
 
 ## Working conventions
 
-- Each project keeps its own `README.md` or `STUDIO.md` as the resume point; update it after substantial work.
+- Each project keeps its own `README.md` or `STUDIO.md` as the resume point, plus a `PIPELINE.md` (core code, inputs and re-download paths, ordered render steps, checks, environment, constraints). Update both after substantial work.
+- Cleanup follows `maintenance/cleanup-*/PROPOSAL.md`: approved items are moved (same relative path) into a root `_TO_DELETE_<date>/` staging folder, because CLI trash cannot handle iCloud-evicted files; the user empties it via Finder.
 - Canvas is `1080×1920` (9:16) unless the project states otherwise; bilingual (中文 / English) typography; signature @一尺之棰 / Zeno.yczc.
 - Keep temporary work in `/tmp` or the session scratchpad; never render two jobs into the same frame directory.
 - Do not delete, move or rename existing project files, backups or old versions without an explicit, path-specific approval.
